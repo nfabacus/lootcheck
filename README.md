@@ -1,4 +1,4 @@
-# Lootcheck - Just a TDD practice
+# Lootcheck - a TDD practice with React and Redux
 
 Technologies used:
 React, Redux
