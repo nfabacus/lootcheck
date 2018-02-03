@@ -9,7 +9,7 @@ class App extends Component {
         <h2>Loot Check</h2>
         <hr />
         <Wallet />
-        <h2>Loot</h2>
+        <hr />
         <Loot />
       </div>
     )

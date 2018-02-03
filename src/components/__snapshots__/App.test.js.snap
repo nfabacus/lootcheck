@@ -20,12 +20,10 @@ ShallowWrapper {
       "children": Array [
         <h2>
           Loot Check
-        </h2>,
+</h2>,
         <hr />,
         <Connect(Wallet) />,
-        <h2>
-          Loot
-        </h2>,
+        <hr />,
         <Connect(Loot) />,
       ],
     },
@@ -64,12 +62,10 @@ ShallowWrapper {
         "instance": null,
         "key": undefined,
         "nodeType": "host",
-        "props": Object {
-          "children": "Loot",
-        },
+        "props": Object {},
         "ref": null,
-        "rendered": "Loot",
-        "type": "h2",
+        "rendered": null,
+        "type": "hr",
       },
       Object {
         "instance": null,
@@ -92,12 +88,10 @@ ShallowWrapper {
         "children": Array [
           <h2>
             Loot Check
-          </h2>,
+</h2>,
           <hr />,
           <Connect(Wallet) />,
-          <h2>
-            Loot
-          </h2>,
+          <hr />,
           <Connect(Loot) />,
         ],
       },
@@ -136,12 +130,10 @@ ShallowWrapper {
           "instance": null,
           "key": undefined,
           "nodeType": "host",
-          "props": Object {
-            "children": "Loot",
-          },
+          "props": Object {},
           "ref": null,
-          "rendered": "Loot",
-          "type": "h2",
+          "rendered": null,
+          "type": "hr",
         },
         Object {
           "instance": null,
