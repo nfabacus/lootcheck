@@ -20,9 +20,13 @@ ShallowWrapper {
       "children": Array [
         <h2>
           Loot Check
-</h2>,
+        </h2>,
         <hr />,
         <Connect(Wallet) />,
+        <h2>
+          Loot
+        </h2>,
+        <Connect(Loot) />,
       ],
     },
     "ref": null,
@@ -56,6 +60,26 @@ ShallowWrapper {
         "rendered": null,
         "type": [Function],
       },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Loot",
+        },
+        "ref": null,
+        "rendered": "Loot",
+        "type": "h2",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {},
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
     ],
     "type": "div",
   },
@@ -68,9 +92,13 @@ ShallowWrapper {
         "children": Array [
           <h2>
             Loot Check
-</h2>,
+          </h2>,
           <hr />,
           <Connect(Wallet) />,
+          <h2>
+            Loot
+          </h2>,
+          <Connect(Loot) />,
         ],
       },
       "ref": null,
@@ -94,6 +122,26 @@ ShallowWrapper {
           "ref": null,
           "rendered": null,
           "type": "hr",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Loot",
+          },
+          "ref": null,
+          "rendered": "Loot",
+          "type": "h2",
         },
         Object {
           "instance": null,
